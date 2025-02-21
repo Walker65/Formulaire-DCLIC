@@ -1,5 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const form = document.getElementById("form");
+     const form = document.getElementById("form");
     const confirmationSection = document.getElementById("confirmation-section");
 
     form.addEventListener("submit", function (e) {
@@ -58,4 +57,4 @@ document.addEventListener("DOMContentLoaded", function () {
        
         form.reset();
     });
-});
+
