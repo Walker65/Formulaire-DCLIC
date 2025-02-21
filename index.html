@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
     <div class="container">
         <form id="form" action="/">
@@ -24,7 +26,7 @@
             </div>
             <div class="input-control">
                 <label for="birth">Date de naissance</label>
-                <input type="date" name="birth" id="birth" >
+                <input type="date" name="birth" id="birth">
                 <div class="error"></div>
             </div>
             <div class="input-control">
@@ -34,22 +36,25 @@
             </div>
             <div class="input-control">
                 <label for="motivation">Motivation</label>
-                <textarea name="motivation" id="motivation" cols="5" rows="5" placeholder="Votre motivation (1000 caractères minimum et 2500 maximum)"></textarea>
+                <textarea name="motivation" id="motivation" cols="5" rows="5"
+                    placeholder="Votre motivation (1000 caractères minimum et 2500 maximum)"></textarea>
                 <div class="error"></div>
             </div>
             <center><button type="submit">Inscription</button></center>
 
         </form>
-        <div id="confirmation-section" style="display: none; margin-top: 20px; padding: 20px; background: white; border-radius: 5px; box-shadow: 5px 5px 8px #2d2c2c;">
-            <h2>Inscription réussie ! 🎉</h2>
+        <div id="confirmation-section"
+            style="display: none; margin-top: 20px; padding: 20px; background: white; border-radius: 5px; box-shadow: 5px 5px 8px #2d2c2c;">
+            <h2>Inscription réussie !</h2>
             <p><strong>Nom :</strong> <span id="display-nom"></span></p>
             <p><strong>Prénoms :</strong> <span id="display-prenom"></span></p>
             <p><strong>Date de naissance :</strong> <span id="display-birth"></span></p>
             <p><strong>Numéro de téléphone :</strong> <span id="display-phone"></span></p>
             <p><strong>Motivation :</strong> <span id="display-motivation"></span></p>
         </div>
-        
+
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>
